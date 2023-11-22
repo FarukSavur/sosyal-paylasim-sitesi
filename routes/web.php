@@ -20,3 +20,7 @@ Route::get('/', function () {
         'age' => 24
     ]);
 });
+
+Route::get('user', function(){
+    return Inertia::render('User');
+});

@@ -1,25 +1,17 @@
 <template>
-  <Head>
-    <title>Deneme Proje</title>
-  </Head>
+  <Head title="User page"/>
   <Layout>
-    <h1>Hoşgeldin, {{ name }}</h1>
-    <h1>Yaş: {{ age }}</h1>
+    <h1>User page</h1>
   </Layout>
 </template>
 
 <script>
 import { Head } from "@inertiajs/vue3";
-
 import Layout from "./Layout/Index.vue";
 export default {
   components: {
-    Layout,
     Head,
-  },
-  props: {
-    name: String,
-    age: Number,
+    Layout,
   },
 };
 </script>
