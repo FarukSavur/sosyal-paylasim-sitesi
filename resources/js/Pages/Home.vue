@@ -2,10 +2,7 @@
   <Head>
     <title>Deneme Proje</title>
   </Head>
-  <Layout>
-    <h1>Hoşgeldin, {{ name }}</h1>
-    <h1>Yaş: {{ age }}</h1>
-  </Layout>
+  <Layout> Home </Layout>
 </template>
 
 <script>
@@ -17,9 +14,6 @@ export default {
     Layout,
     Head,
   },
-  props: {
-    name: String,
-    age: Number,
-  },
+  props: {},
 };
 </script>
