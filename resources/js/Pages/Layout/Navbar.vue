@@ -1,31 +1,32 @@
 <template>
   <div class="container">
     <div class="row">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <a class="navbar-brand" href="#">Sosyal Paylaşım Sayfası</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Anasayfa</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Gönderiler</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Kullanıcılar</a>
-            </li>
-            <!-- <li class="nav-item dropdown">
+      <div class="col-12">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary px-2 rounded shadow-sm">
+          <a class="navbar-brand" href="#">Sosyal Paylaşım Sayfası</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Anasayfa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gönderiler</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Kullanıcılar</a>
+              </li>
+              <!-- <li class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle"
               href="#"
@@ -42,18 +43,19 @@
               <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
           </li> -->
-          </ul>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Arama yap.."
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-dark" type="submit">Ara</button>
-          </form>
-        </div>
-      </nav>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Arama yap.."
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-dark" type="submit">Ara</button>
+            </form>
+          </div>
+        </nav>
+      </div>
     </div>
   </div>
 </template>

@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <footer>
+    <footer class="mt-3">
       <div class="row">
         <div class="col-12 col-md-2 text-center mt-4 mt-md-0">
           <h5>Menü 1</h5>
@@ -80,21 +80,20 @@
             </div>
           </form>
         </div>
-      </div>
-
-      <div class="d-flex justify-content-between py-4 my-4 border-top">
-        <p>© 2023 Sosyal Paylaşım Sayfası, Tüm hakları saklıdır</p>
-        <ul class="list-unstyled d-flex">
-          <li class="ms-3">
-            <a class="link-dark" href="#"><i class="bi bi-twitter-x"></i></a>
-          </li>
-          <li class="ms-3">
-            <a class="link-dark" href="#"><i class="bi bi-instagram"></i></a>
-          </li>
-          <li class="ms-3">
-            <a class="link-dark" href="#"><i class="bi bi-facebook"></i></a>
-          </li>
-        </ul>
+        <div class="d-flex justify-content-between py-4 my-4 border-top">
+          <p>© 2023 Sosyal Paylaşım Sayfası, Tüm hakları saklıdır</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3">
+              <a class="link-dark" href="#"><i class="bi bi-twitter-x"></i></a>
+            </li>
+            <li class="ms-3">
+              <a class="link-dark" href="#"><i class="bi bi-instagram"></i></a>
+            </li>
+            <li class="ms-3">
+              <a class="link-dark" href="#"><i class="bi bi-facebook"></i></a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </div>
