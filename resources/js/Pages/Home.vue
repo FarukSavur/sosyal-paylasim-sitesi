@@ -2,7 +2,11 @@
   <Head>
     <title>Deneme Proje</title>
   </Head>
-  <Layout> Home </Layout>
+  <Layout>
+    <div class="container">
+      <div class="row py-4">Home</div>
+    </div>
+  </Layout>
 </template>
 
 <script>

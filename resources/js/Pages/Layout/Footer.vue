@@ -1,8 +1,8 @@
 <template>
-  <div class="container-fluid">
-    <footer class="py-5">
+  <div class="container">
+    <footer>
       <div class="row">
-        <div class="col-2">
+        <div class="col-12 col-md-2 text-center mt-4 mt-md-0">
           <h5>Menü 1</h5>
           <ul class="nav flex-column">
             <li class="nav-item mb-2">
@@ -23,7 +23,7 @@
           </ul>
         </div>
 
-        <div class="col-2">
+        <div class="col-12 col-md-2 text-center mt-4 mt-md-0">
           <h5>Menü 2</h5>
           <ul class="nav flex-column">
             <li class="nav-item mb-2">
@@ -44,7 +44,7 @@
           </ul>
         </div>
 
-        <div class="col-2">
+        <div class="col-12 col-md-2 text-center mt-4 mt-md-0">
           <h5>Menü 3</h5>
           <ul class="nav flex-column">
             <li class="nav-item mb-2">
@@ -65,7 +65,7 @@
           </ul>
         </div>
 
-        <div class="col-5 offset-1">
+        <div class="col-12 col-md-5 offset-md-1">
           <form>
             <h5>Yeniliklerden haberdar olmak için abone olun</h5>
             <div class="d-flex w-100 gap-2">
