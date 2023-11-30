@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <footer class="mt-3">
+    <footer class="mt-4 pt-4 border-top">
       <div class="row">
         <div class="col-12 col-md-2 text-center mt-4 mt-md-0">
           <h5>Menü 1</h5>
